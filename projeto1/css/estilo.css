@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz');
+
+
+
+/* FORMATAÇÃO DAS TAGS BÁSICAS */
+body{
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+    text-align: justify;
+    text-indent: 10px;
+    background-image: url(../imagens/destiny.jpg );
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+
+/* Formatação das divs */
+
+div#pagina{
+    margin-top: 65px;
+    margin-bottom: 20px;
+    width: 700px;
+    height: 900px;
+    background-color: rgba(92, 66, 92, 0.233);
+    margin-left: 320px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.363);
+}
+
+div#cabecalho{
+    width: 700px;
+    height: 150px;
+    background-color:rgba(0, 0, 0, 0.7);
+    text-align: left;
+    border-radius: 10px;
+    color: white;
+}
+
+
+
+div#rodape{
+    width: 700px;
+    height: 70px;
+}
+
+div#corpo{
+    width: 1000px;
+    height: 680px;
+}
+
+div#coments{
+    border-radius: 10px;
+    width: 380px;
+    height: 150px;
+    border: 2px solid rgba(0, 0, 0, 0.205);
+    position: absolute;
+    margin-left: 300px;
+    margin-top: 635px;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.26);
+    overflow: hidden;
+    
+}
+
+div.comentario{
+    width: 380px;
+    height: 150px;
+    text-indent: 20px;
+    text-align: center;
+    overflow: hidden;
+    background-color: none;
+}
+
+div#1{
+    width: 380px;
+    height: 150px;
+    background-color: rgba(128, 128, 128, 0.466);
+    overflow: hidden;
+    
+}
+
+div#2{ 
+    width: 380px;
+    height: 150px;
+    margin-top: -150px;
+   background-color: rgba(100, 175, 100, 0.473);
+   overflow: hidden;
+   
+}
+
+div#3{
+    width: 380px;
+    height: 150px;
+    margin-top: -150px;
+    background-color: rgba(99, 99, 189, 0.445);
+    overflow: hidden;
+    
+}
+
+div#4{
+    width: 380px;
+    height: 150px;
+    margin-top: -150px;
+    background-color: rgba(196, 140, 196, 0.438);
+    overflow: hidden;
+    
+}
+
+header h1, h3{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+header p{
+
+    margin-top: 10px;
+    margin-bottom: 0px;
+    text-indent: -20px;
+    text-align-last: center;
+    background-color: rgba(255, 255, 255, 0.438);
+    border-radius: 50px;
+    width: 520px;
+    height: 60px;
+    margin-left: 155px;
+    padding-top: 20px;
+    margin-right: 10px;
+    box-shadow: 2px 2px 2px solid rgba(0, 0, 0, 0.479);
+    color: black;
+    padding-right: 20px;
+}
+
+header img{
+    width: 150px;
+    height: 150px;
+    float: left;
+    border-radius: 10px;
+    
+}
+
+img#tyra{
+    width: 80px;
+    height: 80px;
+    float: right;
+    border-radius: 50px;
+    margin-bottom: 50px;
+    margin-top: -38px;
+    position: relative;
+    margin-right: -20px;
+    
+}
+
+img#warlock{
+    width: 300px;
+    height: 480px;
+    margin-top: 70px;
+    margin-left: -68px;
+
+}
+
+div#rodape{
+    width: 700px;
+    height: 100px;
+    background-color: rgba(128, 128, 128, 0.253);
+    clear: both;
+    border-radius: 10px;
+    margin-top: -30px;
+    text-align: center;
+    padding: 1px;
+    font-size: 20pt;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    text-decoration: underline;
+    color: red;
+}
+
+div#corpo section{
+    width: 345px;
+    height: 470px;
+    position: absolute;
+    font-size: 15pt;
+    text-shadow: 2px;
+    text-indent: 10px;
+    text-align: justify;
+    background-color: rgba(170, 152, 152, 0.404);
+    padding: 0px 10px 0px 10px;
+    margin-top: -545px;
+    margin-left: 318px;
+    border-radius: 10px;
+
+}
+
+div#user{
+    position: absolute;
+    width: 900px;
+    height: 500px;
+    background-color: gray;
+}
+
+nav{
+    font-family: 'Yanone Kaffeesatz', sans-serif;    
+    position: absolute;
+    float: top;
+    margin-bottom: 5px;
+    margin-top: -60PX;
+    border-radius: 10px;
+    padding: 0px 2px 20px 0px;
+    width: 700px;
+    height: 30px;
+    background-color: rgba(167, 154, 154, 0.342);
+    text-align: center;
+}
+
+nav p#p1{
+    display: none;
+}
+
+p#pp{
+    display: block;
+    text-align: center;
+}
